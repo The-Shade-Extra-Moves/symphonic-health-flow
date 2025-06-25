@@ -141,3 +141,7 @@
     background-clip: text;
   }
 }
+
+  .lg:hidden{
+    display:initial !important;
+  }
