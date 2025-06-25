@@ -1,7 +1,6 @@
-
 import { motion } from "framer-motion";
 import { MedicalCard } from "@/components/ui/medical-card";
-import { Pills, Clock, AlertTriangle } from "lucide-react";
+import { Pill, Clock, AlertTriangle } from "lucide-react";
 import { MedicalBadge } from "@/components/ui/medical-badge";
 
 const medications = [
@@ -49,7 +48,7 @@ export const Medications = () => {
               <div className="flex items-start justify-between">
                 <div className="flex items-start space-x-4">
                   <div className="p-3 rounded-full medical-gradient">
-                    <Pills className="w-5 h-5 text-white" />
+                    <Pill className="w-5 h-5 text-white" />
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-900 mb-1">{med.name}</h3>

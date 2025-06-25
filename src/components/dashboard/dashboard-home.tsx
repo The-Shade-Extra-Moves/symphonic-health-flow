@@ -1,8 +1,7 @@
-
 import { motion } from "framer-motion";
 import { MedicalCard } from "@/components/ui/medical-card";
 import { MedicalBadge } from "@/components/ui/medical-badge";
-import { Calendar, Activity, Heart, Pills, TrendingUp } from "lucide-react";
+import { Calendar, Activity, Heart, Pill, TrendingUp } from "lucide-react";
 
 const healthMetrics = [
   { label: "Tension", value: "120/80", status: "normal", color: "bg-green-100 text-green-800" },
@@ -18,7 +17,7 @@ const upcomingActions = [
 
 const kpiData = [
   { title: "Prochains RDV", value: "3", icon: Calendar, trend: "+1" },
-  { title: "Médicaments actifs", value: "2", icon: Pills, trend: "stable" },
+  { title: "Médicaments actifs", value: "2", icon: Pill, trend: "stable" },
   { title: "Consultations ce mois", value: "4", icon: Activity, trend: "+2" },
   { title: "Points fidélité", value: "150", icon: TrendingUp, trend: "+25" },
 ];
@@ -146,7 +145,7 @@ export const DashboardHome = () => {
           <MedicalCard className="p-4 border-l-4 border-blue-500">
             <div className="flex items-start space-x-3">
               <div className="p-2 rounded-full bg-blue-100">
-                <Pills className="w-4 h-4 text-blue-600" />
+                <Pill className="w-4 h-4 text-blue-600" />
               </div>
               <div>
                 <h3 className="font-medium text-gray-900">Rappel traitement</h3>
