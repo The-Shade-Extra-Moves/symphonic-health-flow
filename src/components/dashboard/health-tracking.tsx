@@ -92,7 +92,7 @@ export const HealthTracking = () => {
             </LineChart>
           </ResponsiveContainer>
         </MedicalCard>
-      </div>
+      </motion.div>
 
       {/* AI Suggestions */}
       <motion.section
