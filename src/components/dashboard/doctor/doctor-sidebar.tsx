@@ -8,7 +8,8 @@ import {
   Stethoscope,
   Settings as SettingsIcon,
   X,
-  Menu
+  Menu,
+  Activity
 } from "lucide-react";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { MedicalBadge } from "@/components/ui/medical-badge";
